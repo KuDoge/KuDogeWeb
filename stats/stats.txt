@@ -1,0 +1,1 @@
+{"price":"0.000000000322034288 KCS","marketcap":"$4,219,642 USD","holder":"3,505 Unique Addresses","supply":"939.2 Trillion"}
