@@ -6401,18 +6401,32 @@ section {
   cursor: pointer
 }
 
+.vc_custom_1623715020968 {
+  margin-bottom: 200px !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .vc_custom_1623715020968 {
+    margin-bottom: 60px !important;
+  }
+}
+
 .services {
   position: relative
 }
 
 .services__bg {
   position: absolute;
-  top: -50px;
+  top: 35px;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   display: none
+}
+
+.section-services {
+  margin-bottom: 100px;
 }
 
 .services .container {
