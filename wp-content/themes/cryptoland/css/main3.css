@@ -7086,6 +7086,12 @@ section {
   margin-bottom: 5px
 }
 
+.token__info-list li a {
+  color: #aab2cd;
+}.token__info-list li a:hover {
+  color: #ced3e0;
+}
+
 .token__info-list li span {
   width: 200px;
   color: #fff;
