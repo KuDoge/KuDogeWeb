@@ -5518,6 +5518,14 @@ section {
   padding-top: 0
 }
 
+
+@media (max-width: 991px) {
+  .social-list {
+    float:none !important;
+    padding-left: 0px;
+  }
+}
+
 .social-block {
   margin-bottom: 30px
 }
