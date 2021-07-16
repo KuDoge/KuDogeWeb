@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+section {
+    width: 65%;
+    margin: 6.5rem auto 0;
+}
+
+.tabs {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.tabs li {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2add82;
+    cursor: pointer;
+    position: relative;
+}
+
+.tabs li::after {
+    content: '';
+    position: absolute;
+    bottom: -20%;
+    left: 3%;
+    width: 0%;
+    height: 5px;
+    background: #2add82;
+    border-radius: 30px;
+    transition: width 0.5s ease;
+}
+
+.tabs li.active::after {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+}
+
+.content {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.content.active {
+    display: block;
+    animation: fade 1s ease;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+}
+
+.content p {
+    font-size: 1.5rem;
+    width: 70%;
+    margin: 1rem auto 0rem;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    html {
+        font-size: 70%;
+    }
+    section {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    html {
+        font-size: 50%;
+    }
+    section {
+        width: 100%;
+    }
+}
