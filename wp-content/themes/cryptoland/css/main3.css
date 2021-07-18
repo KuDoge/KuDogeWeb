@@ -8586,3 +8586,9 @@ body .c-backtop-1 {
 .form__btn.btn--orange:hover {
   background-image: none !important;
 }
+
+span.fee-span {
+    width: 40px;
+    display: inline-block;
+    text-align: right;
+}
