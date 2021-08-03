@@ -60,3 +60,12 @@
   50%{background-color: rgb(255,255,255,0.3);}
   100%{background-color: rgb(255,255,255,0.2);}
 }
+
+
+
+#metamask-button {
+  background-color: #ea8b32 !important;
+}
+#metamask-button:hover {
+  background-color: #cd6116 !important;
+}
