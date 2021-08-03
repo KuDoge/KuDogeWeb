@@ -32,4 +32,8 @@ jQuery(document).ready(function($){
       console.log(error);
     }
   });
+
+  if(window.ethereum != undefined) {
+    $("#metamask-button").css("display", "block");
+  }
 });

@@ -65,6 +65,7 @@
 
 #metamask-button {
   background-color: #ea8b32 !important;
+  display: none;
 }
 #metamask-button:hover {
   background-color: #cd6116 !important;
